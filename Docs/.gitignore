@@ -1,0 +1,25 @@
+# ========================
+# DADOS SENSÍVEIS
+# ========================
+
+# Variáveis de ambiente (senhas, chaves de API)
+.env
+.env.local
+.env.production
+.env.*
+
+# Chaves e certificados
+*.pem
+*.key
+*.cert
+*.p12
+
+# Arquivos de configuração com credenciais
+config/secrets.json
+secrets.yaml
+credentials.json
+
+# ========================
+# MAS manter o arquivo de exemplo
+# ========================
+!.env.example
